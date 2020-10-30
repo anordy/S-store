@@ -1,0 +1,246 @@
+@media only screen and (max-device-width: 480px) { 
+  .logo {
+     margin-left: 40%;
+  }
+  .back {
+    background-color: #E31013;
+    height: 450px;
+    width: 90%;
+    margin-top: 20px;
+    border-radius: 40px;
+    position: absolute;
+}
+.front {
+    height: 500px;
+    width: 83%;
+    background-color: #FFFFFF;
+    margin-left: 40px;
+    margin-top: 90px;
+}
+.front img {
+   height: 40%;
+   width: 70%;
+}
+.front h5 {
+    padding-top: 20px;
+    font-weight: 400;
+    font-size: 18px;
+}
+.front p {
+    font-size: 13px;
+    margin-top: 30px;
+    font-weight: 400;
+}
+.front button {
+    margin-left: 22%;
+    margin-top: 50px;
+    padding-left: 30px;
+    padding-right: 20px;
+}
+
+.back {
+    background-color: #E31013;
+    height: 450px;
+    width: 100%;
+    margin-top: 20px;
+    border-radius: 40px;
+    position: absolute;
+}
+.front {
+    height: 450px;
+    width: 83%;
+    background-color: #FFFFFF;
+    margin-left: 40px;
+    margin-top: 90px;
+}
+.laptop {
+    margin-left: 130px;
+    margin-top: -500px;
+    height: 100px;
+    width: 140px;
+}
+.front h5 {
+    padding-top: 80px;
+    text-align: center;
+    font-weight: 400;
+    letter-spacing: 1.6;
+    color: #495D6D;
+    text-transform: uppercase;
+}
+
+
+/* #######  features ####### */
+
+#features {
+    height: 172vh;
+    margin-top: 80px;
+    /* background-color: green; */
+   
+}
+#features h5 {
+    font-size: 20px;
+}
+#features i {
+    margin-top: 20px;
+}
+#features h6 {
+    font-size: 18px;
+    margin-top: 20px;
+}
+#features p {
+    padding-top: 15px;
+    font-size: 15px;
+}
+#features img {
+    margin-left: 40%;
+}
+.border {
+    margin-top: 20px;
+    margin-bottom: 40px;
+    margin-left: 40%; 
+}
+
+
+/* ##########  PAYMENT  ####### */
+#payment {
+    height: 85vh;
+    /* background-color: green; */
+    overflow: hidden;
+}
+.payment-card {
+    height: 425px;
+    width: 73%;  
+    margin-left: 65px;
+    margin-top: 30px;
+
+}
+
+#payment h5 {
+    font-size: 20px;
+    margin-top: 40px;
+}
+.payment-card p {
+    padding-top: 30px;
+    padding-left: 20px;
+    padding-right: 20px;
+    font-size: 12px;
+}
+.icon 
+{
+    margin-top: 10px;
+}
+.footer-card {
+    height: 40vh;
+    width: 97%;
+    margin-top: -150px;
+}
+ .content {
+    margin-top: 90px;
+}
+.about ul {
+    margin-left: 50px;
+}
+.about li {
+    padding-left: 10px;
+    padding-right: 10px;
+    border-left: none;
+    
+}
+.content hr {
+   display: none;
+}
+.content li a {
+    color: #FFFFFF;
+    font-size: 10px;
+} 
+ .content h6 {
+   
+    padding-top: 10px;
+    padding-left: 10px;
+}
+ .social-icon  {
+    margin-left: 110px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.social-icon li {
+    padding-left: 20px;
+    padding-right: 20px;
+}
+.social-icon li a {
+    color: #F39200;
+}
+.link {
+    color: #FFFFFF;
+    margin-left: 27%;  
+}
+.copyright {
+    color: #FFFFFF;
+    margin-left: 21%;
+} 
+}
+
+/* iphone 5 */
+@media only screen and (max-device-width: 320px) {
+    .laptop {
+        margin-left: 32%;
+    }
+    .front {
+        margin-left: 9%;
+    }
+    .front h5 {
+        font-size: 13px;
+    }
+    .front p {
+        font-size: 12px;
+        margin-top: 50px;
+    }
+    #features {
+        height: 150vh;
+        margin-top: 80px;
+        /* background-color: green; */
+    }
+    #features img {
+        color: #F39200;
+        margin-top: 10px;
+        margin-left: 100px;
+    }
+    #features h6 {
+        font-size: 13px;
+        margin-top: 10px;
+    }
+    #features p {
+        padding-top: 10px;
+        text-align: center;
+        font-size: 12px; 
+    }
+    #payment {
+        height: 70vh;
+        /* background-color: green; */
+    }
+    .payment-card {
+        height: 45vh;
+        width: 78%;  
+        margin-left: 50px;
+        margin-top: 0px;
+    
+    }
+    .icon {
+        padding-top: 10px;
+        padding-left: 5px;
+    }
+    .payment-card p {
+        padding-top: 20px;
+        font-size: 9px;
+        /* display: none; */
+    }
+    .footer-card {
+        height: 50vh;
+    }
+    .social-icon  {
+        margin-left: 60px;
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+}
+

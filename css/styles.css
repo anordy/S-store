@@ -1,0 +1,425 @@
+/* ######  GENERAL ####### */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body , html {
+    background-color: #E5E5E5;
+    /* overflow: hidden; */
+}
+a::hover {
+    color: #F39200;
+    cursor: pointer;
+}
+
+
+/* header */
+.logo {
+    margin-left: 37%;
+    margin-top: 20px;
+    height: 80px;
+    width: 300px;
+    margin-bottom: 20px;
+}
+.back {
+    background-color: #E31013;
+    height: 623px;
+    width: 75%;
+    margin-left: 60px;
+    margin-top: 20px;
+    border-radius: 40px;
+    position: absolute;
+}
+.front {
+    height: 581px;
+    width: 88%;
+    background-color: #FFFFFF;
+    position: relative;
+    margin-left: 65px;
+    border-radius: 30px;
+    margin-top: 300px;
+}.front img {
+    margin-top: -25%;
+    margin-left: 14%;
+    height: 62%;
+    width: 75%;
+}
+.front h5 {
+    margin-top: 50px;
+    text-align: center;
+    font-weight: 400;
+    font-size: 2vw;
+    letter-spacing: 1.6;
+    color: #495D6D;
+    text-transform: uppercase;
+}
+.front p {
+    color: #495D6D;
+    font-size: 1.5vw;
+    margin-top: 30px;
+    font-weight: 400;
+    text-align: center;
+}
+.front button {
+    background-color: #F39200;
+    color: #FFFFFF;
+    margin-left: 40%;
+    margin-top: 60px;
+    padding-left: 40px;
+    padding-right: 40px;
+}
+@media only screen and (max-width: 768px) {
+    .front {
+        width: 90%;
+        margin-left: 25px;
+        margin-top: 200px;
+    }
+    .front img {
+        height: 45%;
+        width: 60%;
+    }
+    .front h5 {
+        /* padding-top: 10px; */
+        font-size: 22px;
+    }
+    .front p {
+        padding-top: 10px;
+        font-size: 18px;
+    }
+    .front button {
+        margin-left: 35%;
+    }
+}
+@media only screen and (min-width: 1024px) {
+    .front {
+        width: 90%;
+        margin-left: 50px;
+        margin-top: 190px;
+    }
+    .laptop {
+        margin-top: -70px;
+        /* margin-left: px; */
+        /* height: 50%;
+        width: 50%; */
+    }
+    .front h5 {
+        padding-top: 10px;
+        font-size: 27px;
+    }
+    .front p {
+        padding-top: 10px;
+        font-size: 20px;      
+}
+
+}
+/* #########   FEATURES ######### */
+#features {
+    height: 100vh;
+    margin-top: 80px;
+    overflow: hidden;
+}
+#features h5 {
+    color: #495D6D;
+    font-size: 2vw;
+}
+#features img {
+    color: #F39200;
+    margin-top: 90px;
+    margin-left: 122px;
+}
+#features h6 {
+    color: #F39200;
+    font-size: 1.2vw;
+    text-align: center;
+    margin-top: 30px;
+    letter-spacing: 1.6;
+    text-transform: uppercase;
+}
+#features p {
+    padding-top: 30px;
+    text-align: center;
+    font-size: 1.3vw;
+    color: #333745;
+}
+.border {
+    height: 7px;
+    width: 60px;
+    background-color: #F39200 ;
+    margin-top: 20px;
+    margin-bottom: 40px;
+    margin-left: 47%;
+    border-radius: 150px;
+    position: relative;
+}
+@media only screen and (max-width: 411px) {
+   
+}
+@media only screen and (max-width: 768px) {
+   #features {
+       height: 80vh;
+   }
+    #features img {
+        margin-top: 10px;
+        margin-left: 90px;
+    }
+    #features h6 {
+        font-size: 19px;
+        margin-top: 10px;
+    }
+    #features p {
+        padding-top: 10px;
+        font-size: 15px;
+    }
+}
+ @media only screen and (device-width: 1024px) {
+    #features {
+        height: 35vh;
+        /* background-color: green; */
+    }
+       #features img {
+         margin-top: 10px;
+         margin-left: 80px;
+     }
+       
+     #features h6 {
+         font-size: 19px;
+         margin-top: 30px;
+     }
+     
+     #features p {
+         padding-top: 10px;
+         font-size: 15px;
+     } 
+ } 
+
+/* ##########  PAYMENT  ####### */
+#payment {
+    height: 100vh;
+    /* background-color: green; */
+    overflow: hidden;
+    position: relative;
+    z-index: 999;
+}
+.payment-card {
+    height: 350px;
+    width: 88%;
+    background-color: #FFFFFF;
+    /* position: relative; */
+    margin-left: 73px;
+    border-radius: 52px;
+    margin-top: 90px;
+
+}
+#payment h5 {
+    font-size: 2vw;
+    color: #495D6D;
+}
+.payment-card p {
+    padding-top: 50px;
+    padding-left: 150px;
+    padding-right: 150px;
+    font-size: 1.2vw;
+}
+.icon {
+    padding-left: 150px;
+    padding-right: 150px;
+    padding-top: 30px;
+}
+
+@media only screen and (max-width: 768px) {
+    #payment {
+        height: 60vh;
+        /* background-color: green; */
+    }
+    .payment-card {
+        height: 390px;
+        width: 88%;
+        margin-left: 50px;
+        margin-top: 90px;
+    }
+    .payment-card p {
+        padding-top: 50px;
+        padding-left: 20px;
+        padding-right: 20px;
+        font-size: 16px;
+    }
+    .icon {
+        padding-left: 10px;
+        padding-right: 10px;
+        padding-top: 30px;
+    }
+ }
+ @media only screen and (device-width: 1024px) {
+    #payment {
+        height: 45vh;
+        /* background-color: green; */
+    }
+     .payment-card {
+        height: 400px;
+        width: 88%;
+        margin-left: 50px;
+        margin-top: 90px;
+    }
+    .payment-card p {
+        padding-top: 50px;
+        padding-left: 20px;
+        padding-right: 20px;
+        font-size: 22px;
+    }
+    .icon {
+        padding-left: 10px;
+        padding-right: 10px;
+        padding-top: 50px;
+    } 
+
+  }
+  .footer-card {
+    height: 68vh;
+    width: 97%;
+    background-color: #E31013;
+    /* margin-left: 10px; */
+    margin-top: -18%;
+    border-top-left-radius: 35px;
+    border-top-right-radius: 35px;
+    position: absolute;
+}
+.content {
+    margin-top: 150px;
+}
+.about ul {
+    margin-left: 200px;
+}
+.about li {
+    padding-left: 40px;
+    padding-right: 40px;
+    border-left: #b1b6b9 1px solid;
+}
+.content .active {
+    border-left: none;
+}
+.content hr {
+    background-color: #b1b6b9;
+    /* margin-top: 120px; */
+    margin-left: 180px;
+    margin-right: 180px;
+    border-radius: 10px;
+}
+.content li a {
+    color: #FFFFFF;
+    font-size: 1.2vw;
+}
+.content h6 {
+    padding-top: 40px;
+    color: #FFFFFF;
+}
+ .social-icon  {
+    margin-left: 390px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.social-icon li {
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.social-icon li a {
+    color: #F39200;
+}
+.link {
+    color: #FFFFFF;
+    margin-left: 42%;  
+    margin-bottom: 10px;
+}
+.copyright {
+    color: #FFFFFF;
+    margin-left: 40%;
+}
+@media only screen and (max-device-width: 768px) {
+    .footer-card {
+        height: 50vh;
+        width: 97%;
+        background-color: #E31013;
+        /* margin-left: 10px; */
+        margin-top: -20%;
+    }
+    .content hr {
+      display: none;
+    }
+    .about ul {
+        margin-left: 80px;
+    }
+    .about li {
+        padding-left: 10px;
+        padding-right: 10px;
+        border-left: #b1b6b9 1px solid;
+    }
+    .content li a {
+        font-size: 15px;
+    }
+    .content h6 {
+        padding-top: 40px;
+    }
+     .social-icon  {
+        margin-left: 390px;
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+    .social-icon  {
+        margin-left: 175px;
+    }
+    .link {
+        color: #FFFFFF;
+        margin-left: 35%;  
+    }
+    .copyright {
+        margin-left: 30%;
+    }
+}
+@media only screen and (device-width: 1024px) {
+    .footer-card {
+        height: 40vh;
+        width: 100%;
+        margin-top: -20%;
+    }
+    .content {
+        margin-top: 150px;
+    }
+    .content hr {
+      display: none;
+    }
+    .about ul {
+        margin-left: 150px;
+    }
+    .about li {
+        padding-left: 10px;
+        padding-right: 10px;
+        border-left: #b1b6b9 1px solid;
+    }
+    .content li a {
+        font-size: 20px;
+    }
+    .content h6 {
+        padding-top: 60px;
+    }
+     .social-icon  {
+        /* margin-left: 450px; */
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+    .social-icon  {
+        margin-left: 260px;
+    }
+    .link {
+        margin-left: 37%; 
+       
+    }
+    .copyright {
+        margin-left: 32%;
+    }
+    .content a {
+        font-size: 25px;
+    }
+}
+
+
