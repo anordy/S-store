@@ -9,7 +9,9 @@ body , html {
     /* overflow: hidden; */
 }
 
-
+a {
+    list-style-type: none;
+}
 
 /* header */
 .logo {
@@ -149,9 +151,7 @@ body , html {
     border-radius: 150px;
     position: relative;
 }
-@media only screen and (max-width: 411px) {
-   
-}
+
 @media only screen and (max-width: 768px) {
    #features {
        height: 80vh;
@@ -272,7 +272,7 @@ body , html {
 
   }
   .footer-card {
-    height: 55vh;
+    height: 60vh;
     width: 97%;
     background-color: #E31013;
     /* margin-left: 10px; */
@@ -285,14 +285,14 @@ body , html {
     margin-top: 150px;
 }
 .about ul {
-    margin-left: 200px;
+    margin-left: 250px;
 }
 .about li {
     padding-left: 40px;
     padding-right: 40px;
     border-left: #b1b6b9 1px solid;
 }
-.about li a {
+.about ul li a::hover {
     color: #F39200;
 }
 .content .active {
@@ -377,51 +377,6 @@ body , html {
     }
     .copyright {
         margin-left: 30%;
-    }
-}
-@media only screen and (device-width: 1024px) {
-    .footer-card {
-        height: 40vh;
-        width: 100%;
-        margin-top: -20%;
-    }
-    .content {
-        margin-top: 150px;
-    }
-    .content hr {
-      display: none;
-    }
-    .about ul {
-        margin-left: 150px;
-    }
-    .about li {
-        padding-left: 10px;
-        padding-right: 10px;
-        border-left: #b1b6b9 1px solid;
-    }
-    .content li a {
-        font-size: 20px;
-    }
-    .content h6 {
-        padding-top: 60px;
-    }
-     .social-icon  {
-        /* margin-left: 450px; */
-        margin-top: 20px;
-        margin-bottom: 20px;
-    }
-    .social-icon  {
-        margin-left: 260px;
-    }
-    .link {
-        margin-left: 37%; 
-       
-    }
-    .copyright {
-        margin-left: 32%;
-    }
-    .content a {
-        font-size: 25px;
     }
 }
 

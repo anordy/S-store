@@ -1,6 +1,6 @@
 @media only screen and (max-device-width: 720px) { 
   .logo {
-     margin-left: 40%;
+     margin-left: 10%;
   }
   .back {
     background-color: #E31013;
@@ -22,13 +22,11 @@
    width: 70%;
 }
 .front h5 {
-    padding-top: 20px;
     font-weight: 400;
     font-size: 18px;
 }
 .front p {
     font-size: 13px;
-    margin-top: 30px;
     font-weight: 400;
 }
 .front button {
@@ -60,7 +58,7 @@
     width: 140px;
 }
 .front h5 {
-    padding-top: 80px;
+    padding-top: 10px;
     text-align: center;
     font-weight: 400;
     letter-spacing: 1.6;
@@ -80,9 +78,7 @@
 #features h5 {
     font-size: 20px;
 }
-#features i {
-    margin-top: 20px;
-}
+
 #features h6 {
     font-size: 18px;
     margin-top: 20px;
@@ -92,7 +88,8 @@
     font-size: 15px;
 }
 #features img {
-    margin-left: 40%;
+    margin-left: 45%;
+    margin-top: 50px;
 }
 .border {
     margin-top: 20px;
@@ -103,15 +100,16 @@
 
 /* ##########  PAYMENT  ####### */
 #payment {
-    height: 85vh;
+    height: 90vh;
     /* background-color: green; */
     overflow: hidden;
 }
 .payment-card {
     height: 425px;
+    /* background-color: #F39200; */
     width: 73%;  
     margin-left: 65px;
-    margin-top: 30px;
+    margin-top: 20px;
 
 }
 
@@ -182,21 +180,24 @@
 
 /* iphone 5 */
 @media only screen and (max-device-width: 320px) {
+   
     .laptop {
         margin-left: 32%;
+        /* margin-top: -120px; */
     }
     .front {
         margin-left: 9%;
     }
     .front h5 {
         font-size: 13px;
+        /* margin-top: -60px; */
     }
     .front p {
         font-size: 12px;
-        margin-top: 50px;
+        margin-top: 30px;
     }
     #features {
-        height: 150vh;
+        /* height: 150vh; */
         margin-top: 80px;
         /* background-color: green; */
     }
@@ -215,11 +216,11 @@
         font-size: 12px; 
     }
     #payment {
-        height: 70vh;
+        height: 90vh;
         /* background-color: green; */
     }
     .payment-card {
-        height: 45vh;
+        height: 60vh;
         width: 78%;  
         margin-left: 50px;
         margin-top: 0px;
@@ -238,7 +239,7 @@
         height: 50vh;
     }
     .social-icon  {
-        margin-left: 60px;
+        /* margin-left: 40px; */
         margin-top: 10px;
         margin-bottom: 10px;
     }
