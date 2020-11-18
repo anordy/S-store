@@ -152,9 +152,7 @@ a::hover {
     border-radius: 150px;
     position: relative;
 }
-@media only screen and (max-width: 411px) {
-   
-}
+
 @media only screen and (max-width: 768px) {
    #features {
        height: 80vh;
@@ -275,11 +273,11 @@ a::hover {
 
   }
   .footer-card {
-    height: 68vh;
+    height: 60vh;
     width: 97%;
     background-color: #E31013;
     /* margin-left: 10px; */
-    margin-top: -18%;
+    margin-top: -25%;
     border-top-left-radius: 35px;
     border-top-right-radius: 35px;
     position: absolute;
@@ -376,50 +374,6 @@ a::hover {
         margin-left: 30%;
     }
 }
-@media only screen and (device-width: 1024px) {
-    .footer-card {
-        height: 40vh;
-        width: 100%;
-        margin-top: -20%;
-    }
-    .content {
-        margin-top: 150px;
-    }
-    .content hr {
-      display: none;
-    }
-    .about ul {
-        margin-left: 150px;
-    }
-    .about li {
-        padding-left: 10px;
-        padding-right: 10px;
-        border-left: #b1b6b9 1px solid;
-    }
-    .content li a {
-        font-size: 20px;
-    }
-    .content h6 {
-        padding-top: 60px;
-    }
-     .social-icon  {
-        /* margin-left: 450px; */
-        margin-top: 20px;
-        margin-bottom: 20px;
-    }
-    .social-icon  {
-        margin-left: 260px;
-    }
-    .link {
-        margin-left: 37%; 
-       
-    }
-    .copyright {
-        margin-left: 32%;
-    }
-    .content a {
-        font-size: 25px;
-    }
-}
+
 
 
