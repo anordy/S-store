@@ -8,10 +8,7 @@ body , html {
     background-color: #E5E5E5;
     /* overflow: hidden; */
 }
-a::hover {
-    color: #F39200;
-    cursor: pointer;
-}
+
 
 
 /* header */
@@ -25,8 +22,8 @@ a::hover {
 .back {
     background-color: #E31013;
     height: 623px;
-    width: 75%;
-    margin-left: 60px;
+    width: 73%;
+    margin-left: 5px;
     margin-top: 20px;
     border-radius: 40px;
     position: absolute;
@@ -40,7 +37,7 @@ a::hover {
     border-radius: 30px;
     margin-top: 300px;
 }.front img {
-    margin-top: -25%;
+    margin-top: -20%;
     margin-left: 14%;
     height: 62%;
     width: 75%;
@@ -202,7 +199,7 @@ a::hover {
     z-index: 999;
 }
 .payment-card {
-    height: 350px;
+    height: 360px;
     width: 88%;
     background-color: #FFFFFF;
     /* position: relative; */
@@ -275,11 +272,11 @@ a::hover {
 
   }
   .footer-card {
-    height: 68vh;
+    height: 55vh;
     width: 97%;
     background-color: #E31013;
     /* margin-left: 10px; */
-    margin-top: -18%;
+    margin-top: -25%;
     border-top-left-radius: 35px;
     border-top-right-radius: 35px;
     position: absolute;
@@ -294,6 +291,9 @@ a::hover {
     padding-left: 40px;
     padding-right: 40px;
     border-left: #b1b6b9 1px solid;
+}
+.about li a {
+    color: #F39200;
 }
 .content .active {
     border-left: none;
@@ -314,7 +314,7 @@ a::hover {
     color: #FFFFFF;
 }
  .social-icon  {
-    margin-left: 390px;
+    margin-left: 450px;
     margin-top: 20px;
     margin-bottom: 20px;
 }
@@ -330,6 +330,9 @@ a::hover {
     color: #FFFFFF;
     margin-left: 42%;  
     margin-bottom: 10px;
+}
+ a:hover {
+    color: #F39200;
 }
 .copyright {
     color: #FFFFFF;
